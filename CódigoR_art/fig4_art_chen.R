@@ -14,7 +14,7 @@ Chen = function (t, y, parms) {
 Eini = c(X = -3, Y = 2, Z = 20)
 # la integración se realiza por 100 veces cada 0.01 vez
 library(deSolve)
-tiempos = seq(from = 0, to = 200, by = 0.001)
+tiempos = seq(from = 0, to = 100, by = 0.001)
 salida = ode(y = Eini, times = tiempos, func = Chen,
               parms = NULL)
 
