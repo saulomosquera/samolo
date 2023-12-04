@@ -1,4 +1,4 @@
-# Figura 4, creada con ggplot y la animación de cada gráfica
+# Figura 4, creada con ggplot y la animación de la evolución de X, Y y Z contra t.
 # El Sistema de Chen
 # Valores de los parámetros 
 library(deSolve)
@@ -68,7 +68,6 @@ ani2=graf2 +
   transition_reveal(tiempos)+labs(title = "t= {frame_along},  Gradiente de la temperatura 
 contra el tiempo")
 ani2
-
 
 # traza el gráfico dinámico de Z contra t
 ani3=graf3 +
